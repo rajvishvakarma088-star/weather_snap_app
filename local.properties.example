@@ -1,0 +1,10 @@
+# Copy this file to local.properties and fill in your values.
+# local.properties is gitignored and should NEVER be committed.
+
+sdk.dir=/path/to/your/Android/sdk
+
+# Release signing (required for assembleRelease)
+KEYSTORE_PATH=weathersnap-release.keystore
+KEYSTORE_PASSWORD=your_keystore_password
+KEY_ALIAS=your_key_alias
+KEY_PASSWORD=your_key_password
